@@ -2,6 +2,6 @@ version: '2'
 services:
   app:
     build: .
-    command: tail -F Gemfile 
+    command: tail -F Gemfile
     volumes:
       - .:/app
